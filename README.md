@@ -10,23 +10,23 @@ The project was developed as part of **SIADS 521: Visual Exploration of Data** a
 
 ## Repository Contents
 
-| File | Description |
-|--------|-------------|
-| Spotify Analysis & Dashboard.ipynb | Main project notebook containing all visualizations and dashboard code |
-| Spotify dataset.csv | Dataset used for analysis |
-| README.md | Project documentation and dashboard screenshots |
-| Dashboard - Energy.png | Dashboard screenshot (Energy) |
-| Dashboard - Danceability.png | Dashboard screenshot (Danceability) |
-| Dashboard - Valence.png | Dashboard screenshot (Valence) |
-| Dashboard - Tempo.png | Dashboard screenshot (Tempo) |
-| Interactive Scatter Plot - Energy vs Popularity.png | Interactive scatter plot example |
-| Interactive Scatter Plot - Danceability vs Popularity.png | Interactive scatter plot example |
-| Interactive Scatter Plot - Valence vs Popularity.png | Interactive scatter plot example |
-| Interactive Scatter Plot - Tempo vs Popularity.png | Interactive scatter plot example |
-| Scatter Plot - Energy vs Popularity.png | Static scatter plot |
-| Histogram - Distribution of Popularity.png | Histogram visualization |
-| Bar Chart - Average Popularity by Genre.png | Bar chart visualization |
-| Violin Plot - Popularity Distribution by Genre.png | Violin plot visualization |
+| File                                                      | Description                                                                                 |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Spotify Analysis & Dashboard.ipynb                        | Main project notebook containing all visualizations and dashboard code                      |
+| Spotify dataset.csv                                       | Dataset used for analysis                                                                   |
+| README.md                                                 | Project documentation, screenshots, and project overview                                    |
+| Dashboard - Energy.png                                    | Dashboard screenshot showing the Energy analysis view                                       |
+| Dashboard - Danceability.png                              | Dashboard screenshot showing the Danceability analysis view                                 |
+| Dashboard - Valence.png                                   | Dashboard screenshot showing the Valence analysis view                                      |
+| Dashboard - Tempo.png                                     | Dashboard screenshot showing the Tempo analysis view                                        |
+| Interactive Scatter Plot - Energy vs Popularity.png       | Interactive scatter plot demonstrating the relationship between Energy and popularity       |
+| Interactive Scatter Plot - Danceability vs Popularity.png | Interactive scatter plot demonstrating the relationship between Danceability and popularity |
+| Interactive Scatter Plot - Valence vs Popularity.png      | Interactive scatter plot demonstrating the relationship between Valence and popularity      |
+| Interactive Scatter Plot - Tempo vs Popularity.png        | Interactive scatter plot demonstrating the relationship between Tempo and popularity        |
+| Scatter Plot - Energy vs Popularity.png                   | Static scatter plot visualization                                                           |
+| Histogram - Distribution of Popularity.png                | Histogram showing the distribution of popularity scores                                     |
+| Bar Chart - Average Popularity by Genre.png               | Bar chart comparing average popularity across genres                                        |
+| Violin Plot - Popularity Distribution by Genre.png        | Violin plot showing popularity distributions across genres                                  |
 
 ---
 
