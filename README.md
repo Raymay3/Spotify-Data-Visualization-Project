@@ -8,6 +8,28 @@ The project was developed as part of **SIADS 521: Visual Exploration of Data** a
 
 ---
 
+## Repository Contents
+
+| File | Description |
+|--------|-------------|
+| Spotify Analysis & Dashboard.ipynb | Main project notebook containing all visualizations and dashboard code |
+| Spotify dataset.csv | Dataset used for analysis |
+| README.md | Project documentation and dashboard screenshots |
+| Dashboard - Energy.png | Dashboard screenshot (Energy) |
+| Dashboard - Danceability.png | Dashboard screenshot (Danceability) |
+| Dashboard - Valence.png | Dashboard screenshot (Valence) |
+| Dashboard - Tempo.png | Dashboard screenshot (Tempo) |
+| Interactive Scatter Plot - Energy vs Popularity.png | Interactive scatter plot example |
+| Interactive Scatter Plot - Danceability vs Popularity.png | Interactive scatter plot example |
+| Interactive Scatter Plot - Valence vs Popularity.png | Interactive scatter plot example |
+| Interactive Scatter Plot - Tempo vs Popularity.png | Interactive scatter plot example |
+| Scatter Plot - Energy vs Popularity.png | Static scatter plot |
+| Histogram - Distribution of Popularity.png | Histogram visualization |
+| Bar Chart - Average Popularity by Genre.png | Bar chart visualization |
+| Violin Plot - Popularity Distribution by Genre.png | Violin plot visualization |
+
+---
+
 ## Research Question
 
 **How do audio features influence Spotify track popularity?**
@@ -54,6 +76,32 @@ Displays the relationship between a selected audio feature and popularity.
 * Detect clusters and outliers
 * Compare feature values against popularity
 
+![Scatter Plot - Energy vs Popularity](Scatter%20Plot%20-%20Energy%20vs%20Popularity.png)
+
+---
+
+## Interactive Scatter Plot
+
+To improve exploration of the data, an interactive scatter plot was created using Plotly. A dropdown menu allows users to switch between Energy, Danceability, Valence, and Tempo while maintaining popularity on the y-axis.
+
+This interactive feature allows users to compare multiple audio characteristics without creating separate visualizations for each feature.
+
+### Energy
+
+![Interactive Energy](Interactive%20Scatter%20Plot%20-%20Energy%20vs%20Popularity.png)
+
+### Danceability
+
+![Interactive Danceability](Interactive%20Scatter%20Plot%20-%20Danceability%20vs%20Popularity.png)
+
+### Valence
+
+![Interactive Valence](Interactive%20Scatter%20Plot%20-%20Valence%20vs%20Popularity.png)
+
+### Tempo
+
+![Interactive Tempo](Interactive%20Scatter%20Plot%20-%20Tempo%20vs%20Popularity.png)
+
 ---
 
 ### 2. Histogram
@@ -64,6 +112,8 @@ Displays the distribution of the selected audio feature.
 
 * Understand how songs are distributed across feature values
 * Identify skewness and concentration of observations
+
+![Histogram](Histogram%20-%20Distribution%20of%20Popularity.png)
 
 ---
 
@@ -82,6 +132,8 @@ Displays average popularity across feature levels:
 * Compare average popularity among groups
 * Highlight whether higher or lower feature values tend to be associated with popularity
 
+![Bar Chart](Bar%20Chart%20-%20Average%20Popularity%20by%20Genre.png)
+
 ---
 
 ### 4. Violin Plot
@@ -94,86 +146,97 @@ Displays the distribution of popularity within each feature level.
 * Compare distributions across groups
 * Visualize density and spread simultaneously
 
+![Violin Plot](Violin%20Plot%20-%20Popularity%20Distribution%20by%20Genre.png)
+
 ---
 
-## Interactive Features
+## Interactive Dashboard & Findings
 
-The dashboard includes a dropdown menu that allows users to switch between:
+**Note:** GitHub does not reliably render all Jupyter Notebook outputs, particularly Plotly visualizations and other interactive content. For this reason, a runnable Google Colab version, a video demonstration, and dashboard screenshots have been provided below.
+
+The dashboard allows users to explore the relationship between Spotify popularity and four audio features:
 
 * Energy
 * Danceability
 * Valence
 * Tempo
 
-When a feature is selected:
+Using the dropdown menu, users can switch between features and instantly update:
 
-* All four visualizations update automatically
-* Titles update dynamically
-* Correlation values update dynamically
-* Feature level descriptions update dynamically
+* Scatter plots
+* Histograms
+* Bar charts
+* Violin plots
+* Correlation values
+* Feature-level descriptions
 
-This allows users to explore multiple audio characteristics without leaving the dashboard.
+This interactivity makes it possible to compare multiple audio characteristics without navigating between separate visualizations.
+
+### Key Findings
+
+**Energy**
+* Showed the strongest relationship among the selected features.
+* Exhibited a modest negative correlation with popularity.
+
+**Danceability**
+* Showed almost no linear relationship with popularity.
+* More danceable songs were not necessarily more popular.
+
+**Valence**
+* Displayed a weak negative relationship with popularity.
+* Happier songs were not automatically associated with higher popularity.
+
+**Tempo**
+* Demonstrated only a very weak relationship with popularity.
+* Song speed alone was not a strong predictor of success.
+
+Overall, the analysis suggests that popularity is influenced by many factors beyond the audio features examined in this project.
+
+### Dashboard Screenshots
+
+The screenshots below show the dashboard after selecting each audio feature from the dropdown menu.
+
+#### Dashboard - Energy
+
+![Dashboard - Energy](Dashboard%20-%20Energy.png)
+
+#### Dashboard - Danceability
+
+![Dashboard - Danceability](Dashboard%20-%20Danceability.png)
+
+#### Dashboard - Valence
+
+![Dashboard - Valence](Dashboard%20-%20Valence.png)
+
+#### Dashboard - Tempo
+
+![Dashboard - Tempo](Dashboard%20-%20Tempo.png)
 
 ---
 
-## Key Findings
+# Interactive Dashboard Access
 
-### Energy
+## Live Dashboard (Runnable)
 
-Energy exhibited the strongest relationship among the selected features, showing a modest negative correlation with popularity.
+The full interactive dashboard can be viewed and executed in Google Colab using the link below:
 
-### Danceability
+https://colab.research.google.com/drive/1nk3GRhEQnwcUmiEMhArVQ5Q-g7AtoNAy?usp=sharing
 
-Danceability showed almost no linear relationship with popularity, suggesting that highly danceable songs are not necessarily more popular.
-
-### Valence
-
-Valence demonstrated a weak negative relationship with popularity, indicating that happier songs are not automatically associated with higher popularity scores.
-
-### Tempo
-
-Tempo showed only a very weak relationship with popularity, suggesting that song speed alone is not a strong predictor of success.
-
-Overall, the analysis suggests that popularity is influenced by many factors beyond the audio features examined here.
-
----
-
-## Repository Contents
-
-* `Spotify Analysis & Dashboard.ipynb` — Main project notebook
-* `Spotify dataset.csv` — Dataset used for analysis
-* Dashboard screenshots
-* Video demonstration
-
----
-
-## Dashboard Screenshots
-
-GitHub does not reliably render complex Plotly dashboards with dropdown interactivity. To ensure the dashboard can be viewed directly within the repository, screenshots of each dashboard state have been included.
-
-### Energy Dashboard
-
-![Dashboard - Energy](Dashboard_-_Energy.png)
-
-### Danceability Dashboard
-
-(Add image here)
-
-### Valence Dashboard
-
-(Add image here)
-
-### Tempo Dashboard
-
-(Add image here)
+The Colab notebook contains the complete dashboard with dropdown functionality that allows users to switch between Energy, Danceability, Valence, and Tempo. All visualizations update dynamically based on the selected feature.
 
 ---
 
 ## Video Demonstration
 
-A short video walkthrough of the dashboard is available here:
+A short video walkthrough demonstrating the dashboard's functionality is available below:
 
-[https://drive.google.com/file/d/1BMhEyZ0V1sPhR3Cbn1aJqV9SmLdlIkeh/view?usp=sharing]
+https://drive.google.com/file/d/1BMhEyZ0V1sPhR3Cbn1aJqV9SmLdlIkeh/view?usp=sharing
+
+The video demonstrates:
+- Dashboard navigation
+- Dropdown menu functionality
+- Dynamic chart updates
+- Interpretation of the visualizations
 
 ---
 
