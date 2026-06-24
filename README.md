@@ -76,7 +76,7 @@ Displays the relationship between a selected audio feature and popularity.
 * Detect clusters and outliers
 * Compare feature values against popularity
 
-![Scatter Plot - Energy vs Popularity](Scatter%20Plot%20-%20Energy%20vs%20Popularity.png)
+![Scatter Plot - Energy vs Popularity](Images/Scatter%20Plot%20-%20Energy%20vs%20Popularity.png)
 
 ---
 
@@ -88,19 +88,19 @@ This interactive feature allows users to compare multiple audio characteristics 
 
 ### Energy
 
-![Interactive Energy](Interactive%20Scatter%20Plot%20-%20Energy%20vs%20Popularity.png)
+![Interactive Energy](Images/Interactive%20Scatter%20Plot%20-%20Energy%20vs%20Popularity.png)
 
 ### Danceability
 
-![Interactive Danceability](Interactive%20Scatter%20Plot%20-%20Danceability%20vs%20Popularity.png)
+![Interactive Danceability](Images/Interactive%20Scatter%20Plot%20-%20Danceability%20vs%20Popularity.png)
 
 ### Valence
 
-![Interactive Valence](Interactive%20Scatter%20Plot%20-%20Valence%20vs%20Popularity.png)
+![Interactive Valence](Images/Interactive%20Scatter%20Plot%20-%20Valence%20vs%20Popularity.png)
 
 ### Tempo
 
-![Interactive Tempo](Interactive%20Scatter%20Plot%20-%20Tempo%20vs%20Popularity.png)
+![Interactive Tempo](Images/Interactive%20Scatter%20Plot%20-%20Tempo%20vs%20Popularity.png)
 
 ---
 
@@ -113,7 +113,7 @@ Displays the distribution of the selected audio feature.
 * Understand how songs are distributed across feature values
 * Identify skewness and concentration of observations
 
-![Histogram](Histogram%20-%20Distribution%20of%20Popularity.png)
+![Histogram](Images/Histogram%20-%20Distribution%20of%20Popularity.png)
 
 ---
 
@@ -132,7 +132,7 @@ Displays average popularity across feature levels:
 * Compare average popularity among groups
 * Highlight whether higher or lower feature values tend to be associated with popularity
 
-![Bar Chart](Bar%20Chart%20-%20Average%20Popularity%20by%20Genre.png)
+![Bar Chart](Images/Bar%20Chart%20-%20Average%20Popularity%20by%20Genre.png)
 
 ---
 
@@ -146,7 +146,7 @@ Displays the distribution of popularity within each feature level.
 * Compare distributions across groups
 * Visualize density and spread simultaneously
 
-![Violin Plot](Violin%20Plot%20-%20Popularity%20Distribution%20by%20Genre.png)
+![Violin Plot](Images/Violin%20Plot%20-%20Popularity%20Distribution%20by%20Genre.png)
 
 ---
 
@@ -198,19 +198,19 @@ The screenshots below show the dashboard after selecting each audio feature from
 
 #### Dashboard - Energy
 
-![Dashboard - Energy](Dashboard%20-%20Energy.png)
+![Dashboard - Energy](Images/Dashboard%20-%20Energy.png)
 
 #### Dashboard - Danceability
 
-![Dashboard - Danceability](Dashboard%20-%20Danceability.png)
+![Dashboard - Danceability](Images/Dashboard%20-%20Danceability.png)
 
 #### Dashboard - Valence
 
-![Dashboard - Valence](Dashboard%20-%20Valence.png)
+![Dashboard - Valence](Images/Dashboard%20-%20Valence.png)
 
 #### Dashboard - Tempo
 
-![Dashboard - Tempo](Dashboard%20-%20Tempo.png)
+![Dashboard - Tempo](Images/Dashboard%20-%20Tempo.png)
 
 ---
 
