@@ -1,4 +1,4 @@
-# Spotify Data Visualization Dashboard (2025)
+# Spotify Data Visualization Dashboard (2026)
 
 ## Project Overview
 
@@ -257,4 +257,4 @@ The video demonstrates:
 Master of Applied Data Science (MADS)
 University of Michigan School of Information
 
-2025
+March 2026
